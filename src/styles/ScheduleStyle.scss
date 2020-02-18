@@ -1,0 +1,37 @@
+.scheduleContainer {
+  border: 1px #c9c9c9 solid;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 1px #c9c9c9 solid;
+}
+
+.table {
+  display: flex;
+}
+
+.day {
+
+  border-bottom: 1px #c9c9c9 solid;
+  padding: 10px;
+}
+.nameOfDay{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.dayAndMonth{
+  color: #949494;
+}
+.hours{
+  padding: 5px;
+  border: none;
+  text-decoration: underline;
+  color: rgb(83, 167, 247);
+}
+.list{
+  border: none;
+}

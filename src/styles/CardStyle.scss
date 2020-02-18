@@ -1,0 +1,34 @@
+.container {
+  border: 1px #c9c9c9 solid;
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+ul {
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px #c3c3c3 solid;
+
+  li:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+  }
+
+  li {
+    display: flex;
+    list-style: none;
+
+    ion-icon {
+      font-size: 35px;
+      color: #c3c3c3;
+    }
+
+    .type {
+      font-size: 12px;
+      color: #6f6f6f;
+    }
+  }
+}
